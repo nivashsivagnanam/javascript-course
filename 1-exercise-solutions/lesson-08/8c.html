@@ -11,7 +11,9 @@
 
       product.price += 500;
       console.log(product);
+//Normally you could do product.name or product.price.
 
+//But if the property has special characters (like a dash -) or spaces, you must use bracket notation instead of dot notation.
       product['delivery-time'] = '3 days';
       console.log(product);
     </script>
